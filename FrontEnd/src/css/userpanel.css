@@ -1,0 +1,51 @@
+/* userpanel.css */
+.user-panel-container {
+    max-width: 95vw;
+    height: 75%;
+    padding: 20px;
+    background-color: #e4e4e4;
+    border: 1px solid #acacac;
+    border-radius: 10px;
+    box-shadow: 0 10px 5px rgb(80, 80, 80);
+    margin-top: 20px;
+}
+.body5 {
+    padding: 90px;
+    width: 100vw !important;
+    height: 100vh;
+    background-color: rgb(0, 86, 56);
+}
+.formname {
+    font-size: 4em;
+    text-align: center;
+    color: rgb(50, 50, 50) !important;
+}
+
+.user-panel-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.user-panel-container p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.user-panel-container button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-panel-container button:hover {
+    background-color: #0056b3;
+}
+.logout-button {
+    display: flex;
+
+}
